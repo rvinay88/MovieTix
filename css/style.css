@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body > * {
+  font-family: 'Oswald', sans-serif; }
+
 .logo {
   width: 140px;
   position: relative;
@@ -22,7 +26,8 @@
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-top: 1em; }
   .title-bar.primary {
     background: #09BDD5; }
   .title-bar.secondary {
@@ -31,7 +36,7 @@
 .search-bg {
   background: #DAF3FF;
   color: #00AF9D;
-  padding: 4em 0; }
+  padding: 9.4em 0; }
   .search-bg > input {
     height: 64px;
     width: 65%;
@@ -52,5 +57,29 @@
   padding: 1em; }
   .sidebar h4 {
     margin-top: 0; }
+
+.sidebar-title {
+  color: #00AF9D; }
+
+.btn-sidebar {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  background: #00AF9D !important;
+  border-radius: 0 !important;
+  padding: 1em 2em !important;
+  border-color: transparent !important;
+  outline: none; }
+
+@media (max-width: 768px) {
+  .bg-on-small {
+    background: #DDD;
+    margin-top: 1em;
+    margin-bottom: 1em; } }
+
+.navbar-header, .navbar-collapse {
+  background: #00AF9D; }
+  .navbar-header a, .navbar-collapse a {
+    color: white !important; }
 
 /*# sourceMappingURL=style.css.map */

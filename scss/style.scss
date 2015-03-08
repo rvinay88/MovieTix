@@ -1,6 +1,12 @@
 $primary-color: #09BDD5;
 $secondary-color: #00AF9D;
 
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body > * {
+	font-family: 'Oswald', sans-serif;
+}
+
 .logo {
 	width: 140px;
 	position: relative;
@@ -31,6 +37,7 @@ $secondary-color: #00AF9D;
 	color: white;
 	text-transform: uppercase;
 	margin-bottom: 1em;
+	margin-top: 1em;
 	&.primary {
 		background: $primary-color;
 	}
@@ -42,7 +49,7 @@ $secondary-color: #00AF9D;
 .search-bg {
 	background: #DAF3FF;
 	color: $secondary-color;
-	padding: 4em 0;
+	padding: 9.4em 0;
 
 	> input {
 		height: 64px;
@@ -67,5 +74,35 @@ $secondary-color: #00AF9D;
 	padding: 1em;
 	h4 {
 		margin-top: 0;
+	}
+}
+
+.sidebar-title {
+	color: $secondary-color;
+}
+
+.btn-sidebar {
+	color: white !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+	background: $secondary-color !important;
+	border-radius: 0 !important;
+	padding: 1em 2em !important;
+	border-color: transparent !important;
+	outline: none;
+}
+
+.bg-on-small {
+	@media (max-width: 768px) {
+		background: #DDD;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+.navbar-header, .navbar-collapse  {
+	background: $secondary-color;
+	a {
+		color: white !important;
 	}
 }
