@@ -95,4 +95,31 @@ img {
 p {
   font-family: arial; }
 
+.tab-image {
+  width: 200px;
+  display: block;
+  margin-top: 1em; }
+  .tab-image > img {
+    width: 200px;
+    height: 200px; }
+
+.tab-media-body {
+  padding-top: 1em; }
+
+tbody {
+  font-family: arial; }
+
+.media-left a:not(.tab-image) {
+  width: 120px;
+  display: block; }
+
+.image-review {
+  margin-top: 1em; }
+
+.content-area {
+  background: #EEE;
+  float: left;
+  margin-top: 1em;
+  padding-bottom: 2em; }
+
 /*# sourceMappingURL=style.css.map */
