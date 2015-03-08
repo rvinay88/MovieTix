@@ -2,6 +2,10 @@
 body > * {
   font-family: 'Oswald', sans-serif; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 .logo {
   width: 140px;
   position: relative;
@@ -77,9 +81,18 @@ body > * {
     margin-top: 1em;
     margin-bottom: 1em; } }
 
-.navbar-header, .navbar-collapse {
-  background: #00AF9D; }
-  .navbar-header a, .navbar-collapse a {
+.navbar-header, .navbar-collapse, .navbar-default {
+  background: #09BDD5 !important; }
+  .navbar-header a, .navbar-collapse a, .navbar-default a {
     color: white !important; }
+
+.no-pad {
+  padding: 0 2em !important; }
+
+.movie-poster {
+  margin-top: 20px; }
+
+p {
+  font-family: arial; }
 
 /*# sourceMappingURL=style.css.map */

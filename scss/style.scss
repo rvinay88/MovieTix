@@ -7,6 +7,11 @@ body > * {
 	font-family: 'Oswald', sans-serif;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .logo {
 	width: 140px;
 	position: relative;
@@ -100,9 +105,21 @@ body > * {
 	}
 }
 
-.navbar-header, .navbar-collapse  {
-	background: $secondary-color;
+.navbar-header, .navbar-collapse, .navbar-default {
+	background: $primary-color !important;
 	a {
 		color: white !important;
 	}
+}
+
+.no-pad {
+	padding: 0 2em !important;
+}
+
+.movie-poster {
+	margin-top: 20px;
+}
+
+p {
+	font-family: arial;
 }
