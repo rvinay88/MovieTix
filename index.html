@@ -31,12 +31,126 @@
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
-</nav>
-	<main>
-		<label for="search-box" class="label-search">Search for a movie, director, artist or pretty much anything</label>
-		<input type="text" name="search-box" class="search">
-		<a href="#">Advanced Search</a>
-	</main>
+	</nav>
+	<div class="container">
+		<main>
+			<div class="col-sm-8 search-bg">
+				<h1 class="text-uppercase">Search</h1>
+				<input type="text" name="search-box" class="search" placeholder="Movie names, actors, locations, etc.">
+				<button>GO!</button>
+				<p class="text-center"><a href="#">Advanced Search</a></p>
+			</div>
+			<div class="col-sm-4">
+				<div class="sidebar">
+					<h4 class="sidebar-title">
+						What movie is best for you?
+					</h4>
+					<div>
+						<div class="form-group">
+							<label for="">Location</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="">Age</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="">Gender</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="">Favorite Actor</label>
+							<input type="text" class="form-control">
+						</div>
+						<a href="#">More</a>
+						<div class="text-right">
+							<button class="btn btn-primary">
+								GO!
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="divider"></div>
+		
+		<div class="col-sm-6">
+			<div class="title-bar primary">Now Showing</div>
+			<div class="movies-list">
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="http://pixel.nymag.com/content/dam/daily/vulture/2014/09/25/birdman-click.jpg" alt="...">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Birdman <span class="rating">4.5 / 5</span></h4>
+				    <p>
+				    	Academy award winner Best Picture 2014
+				    </p>
+				    <p>
+				    	Rated R
+				    </p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="http://img3.wikia.nocookie.net/__cb20120808220441/spongebob/images/6/6d/Spongebob_squarepants_the_movie_2_teaser_poster_by_jphomeentertainment-d4u7349.jpg" alt="...">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Spongebob <span class="rating">3.2 / 5</span></h4>
+				    <p>
+				    	Family friendly
+				    </p>
+				    <p>
+				    	Rated PG
+				    </p>
+				  </div>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="title-bar secondary">Coming Soon</div>
+			<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="images/deliman.png" alt="...">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Deliman <span class="rating">4.0 / 5</span></h4>
+				    <p>
+				    	Documentary
+				    </p>
+				    <p>
+				    	Rated: PG-13
+				    </p>
+				  </div>
+				</div>
+				<div class="media">
+				  <div class="media-left">
+				    <a href="#">
+				      <img class="media-object" src="http://www.markmeets.com/wp-content/uploads/2014/12/never-lose-focus-movie-poster.jpg" alt="...">
+				    </a>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">Never Lose Focus <span class="rating">4.7 / 5</span></h4>
+				    <p>
+				    	Action
+				    </p>
+				    <p>
+				    	Rated R
+				    </p>
+				  </div>
+				</div>
+		</div>
+		
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 

@@ -1,6 +1,71 @@
+$primary-color: #09BDD5;
+$secondary-color: #00AF9D;
+
 .logo {
 	width: 140px;
 	position: relative;
 	bottom: 122%;
 	z-index: 4;
+}
+
+.media-object {
+	width: 120px;
+}
+
+.media-heading  {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	> span {
+		color: $secondary-color;
+	}
+	+ p {
+		margin-top: 2em;
+	}
+}
+
+.title-bar {
+	padding: 1em;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	&.primary {
+		background: $primary-color;
+	}
+	&.secondary {
+		background: $secondary-color;
+	}
+}
+
+.search-bg {
+	background: #DAF3FF;
+	color: $secondary-color;
+	padding: 4em 0;
+
+	> input {
+		height: 64px;
+		width: 65%;
+		border: 1px solid $primary-color;
+		padding-left: 1em;
+		font-style: italic;
+	}
+	button {
+		font-weight: bold;
+		height: 64px;
+		color: white;
+		background: $secondary-color;
+		border: none;
+		padding: 0 4em;
+		font-size: 16px;
+	}
+}
+
+.sidebar {
+	background: #DDD;
+	padding: 1em;
+	h4 {
+		margin-top: 0;
+	}
 }
